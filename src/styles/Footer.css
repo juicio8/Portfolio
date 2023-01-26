@@ -1,0 +1,32 @@
+.footer {
+  position: fixed;
+  /* height: 100vh; */
+  bottom: 0;
+}
+.footer .zag {
+  display: none;
+  width: 70px;
+  filter: drop-shadow(1px 3px 1px rgb(76, 77, 77));
+}
+.footer .social-links {
+  position: relative;
+}
+.footer .rotate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: absolute;
+  top: -60px;
+  right: -75px;
+  transform: rotate(270deg);
+}
+.footer .rotate img {
+  width: 28px;
+  filter: drop-shadow(1px 1px 0px rgb(79, 79, 76));
+}
+@media screen and (max-width: 600px) {
+  .footer .rotate {
+    right: -45px;
+  }
+}
