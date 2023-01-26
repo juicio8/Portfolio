@@ -14,7 +14,15 @@ export function Work() {
       <div className="project">
         <img src={data.image} loading="lazy" />
         <h3>{data.name}</h3>
-        <div className="project--link">
+        <div className="project-mobile">
+          <a href={data.link} target="_blank">
+            <img src="/popup-link-icon.svg" alt="" />
+          </a>
+          <a href={data.git} target="_blank">
+            <img src="/github-icon(2).svg" alt="" />
+          </a>
+        </div>
+        <div className="project--link project-desktop">
           <a href={data.link} target="_blank">
             <img src="/popup-link-icon.svg" alt="" />
           </a>

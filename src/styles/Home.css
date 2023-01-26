@@ -72,6 +72,7 @@
 @media screen and (max-width: 600px) {
   .skills {
     max-width: 339px;
+    margin: 1em auto;
     flex-wrap: wrap;
   }
 }
