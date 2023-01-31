@@ -95,6 +95,16 @@ nav {
   pointer-events: none;
   display: flex;
 }
+.links-section a {
+  cursor: none;
+}
+.links-section a {
+  pointer-events: none;
+  cursor: pointer;
+}
+.links-section.open a {
+  pointer-events: visible;
+}
 .links-section.open {
   display: flex;
   opacity: 1;
@@ -105,8 +115,6 @@ nav {
   text-decoration: none;
   font-size: 1.8rem;
   text-shadow: 0px 0px 18px #fff;
-  pointer-events: visible;
-  cursor: pointer;
 }
 .menu-btn.open .menu-btn__burger::before,
 .menu-btn.open .menu-btn__burger::after {
