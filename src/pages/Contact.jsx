@@ -142,7 +142,7 @@ export default function Contact() {
           </div>
 
           <button className="contact--form__submit">Send message</button>
-          {submitted.length > 0 && <p class="when_submitted">{submitted}</p>}
+          {submitted.length > 0 && <p className="when_submitted">{submitted}</p>}
         </form>
       </div>
     </div>
