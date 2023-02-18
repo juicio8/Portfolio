@@ -4,6 +4,12 @@ export const projects = [
     link: "https://love-me.app",
     git: "https://github.com/workshopapps/loveletterwriter.web",
     image: "/project2.jpg",
+    tech: [
+      "/css-icon.svg",
+      "/javascript-programming-language-icon.svg",
+      "/tailwind-css-icon.svg",
+      "/react-js-icon.svg",
+    ],
     description: "Generate, edit and send love letters to your loved ones",
   },
   {
@@ -12,6 +18,11 @@ export const projects = [
     git: "https://github.com/juicio8/Quizzical",
     image: "/project1.jpg",
     description: "Answer top quizzes and get score",
+    tech: [
+      "/css-icon.svg",
+      "/javascript-programming-language-icon.svg",
+      "/react-js-icon.svg",
+    ],
   },
   {
     name: "WatchList",
@@ -19,6 +30,7 @@ export const projects = [
     git: "https://github.com/juicio8/Movie-WatchList",
     image: "/project3.jpg",
     description: "Select your favorite films and add it to your WatchList",
+    tech: ["/css-icon.svg", "/javascript-programming-language-icon.svg"],
   },
   {
     name: "Lendsqr Test",
@@ -33,6 +45,11 @@ export const projects = [
     git: "https://github.com/juicio8/Metabnb",
     image: "/project5.jpg",
     description: "",
+    tech: [
+      "/css-icon.svg",
+      "/javascript-programming-language-icon.svg",
+      "/react-js-icon.svg",
+    ],
   },
   {
     name: "Travel Journal",
@@ -40,6 +57,11 @@ export const projects = [
     git: "",
     image: "/project6.jpg",
     description: "",
+    tech: [
+      "/css-icon.svg",
+      "/javascript-programming-language-icon.svg",
+      "/react-js-icon.svg",
+    ],
   },
   {
     name: "Metric Conversion",
@@ -47,6 +69,7 @@ export const projects = [
     git: "https://github.com/juicio8/Metric-converter",
     image: "/project7.jpg",
     description: "",
+    tech: ["/css-icon.svg", "/javascript-programming-language-icon.svg"],
   },
   {
     name: "Random Password",
@@ -54,6 +77,7 @@ export const projects = [
     git: "https://github.com/juicio8/Password-Generator",
     image: "/project8.jpg",
     description: "",
+    tech: ["/css-icon.svg", "/javascript-programming-language-icon.svg"],
   },
   {
     name: "Scoreboard",
@@ -61,6 +85,7 @@ export const projects = [
     git: "https://github.com/juicio8/scoreboard",
     image: "/project9.jpg",
     description: "",
+    tech: ["/css-icon.svg", "/javascript-programming-language-icon.svg"],
   },
   {
     name: "Portfolio",
@@ -68,5 +93,10 @@ export const projects = [
     git: "https://github.com/juicio8/Portfolio",
     image: "/project10.jpg",
     description: "",
+    tech: [
+      "/css-icon.svg",
+      "/javascript-programming-language-icon.svg",
+      "/react-js-icon.svg",
+    ],
   },
 ];

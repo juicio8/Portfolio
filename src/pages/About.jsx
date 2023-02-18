@@ -13,14 +13,13 @@ function About() {
       <div className="text-container">
         <h1 className="heading">About Me</h1>
         <p>
-          Achiadeni Wisdom Ochiche is a Frontend Developer. He enjoys creating
-          and building web apllications. He loves learning new technologies and
-          things.
+          Hey, I'm a Frontend Developer. I enjoy creating and building web
+          apllications. I also love learning new technologies and things.
         </p>
         <p>
-          Deni has a background in computer science and software engineering. He
-          trained with Zuri for 4 months and has been internining with HNG. He
-          has built a lot of web applications.
+          I have a background in computer science and software engineering. I
+          trained with Zuri for 4 months and have been internining with HNG. I
+          have built a lot of web applications.
         </p>
         <p className="sorry">Sorry, Not taken a picture yet!</p>
       </div>

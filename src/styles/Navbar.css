@@ -123,6 +123,9 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+  .links-section {
+    background-color: rgba(28, 35, 50, 0.9);
+  }
   .logo a {
     font-size: 1.7rem;
   }

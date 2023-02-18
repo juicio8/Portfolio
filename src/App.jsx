@@ -1,7 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import { createRoot } from "react-dom/client";
+import AnimatedCursor from "react-animated-cursor";
 import Layout from "./Layout/Layout";
 import About from "./pages/About";
 import { Work } from "./pages/Work";
@@ -27,7 +26,17 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <AnimatedCursor
+        innerSize={23}
+        outerSize={38}
+        color="33,63,125"
+        outerAlpha={0.2}
+      />
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App;

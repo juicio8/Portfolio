@@ -137,7 +137,7 @@ export default function Contact() {
               name="agreed"
             />
             <label className="checkbox--label" htmlFor="agreed">
-              You agree to providing your data to Juicio who may contact you.
+              You agree to providing your data to Deni who may contact you.
             </label>
           </div>
 

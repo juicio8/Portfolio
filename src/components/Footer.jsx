@@ -7,11 +7,11 @@ function Footer() {
       <div className="social-links">
         <img className="zag" src="/zag.svg" />
         <div className="rotate">
-          <a href="https://www.linkedin.com/in/deni-ochiche-156632247/">
-            <img src="/linkedin.svg" alt="" target="_blank" />
+          <a href="www.linkedin.com/in/denioch">
+            <img src="/linkedin.svg" alt="linkedIn" target="_blank" />
           </a>
           <a href="https://github.com/juicio8" target="_blank">
-            <img src="/github.svg" alt="" />
+            <img src="/github.svg" alt="github" />
           </a>
         </div>
       </div>
