@@ -44,6 +44,7 @@ export default function Contact() {
         (result) => {
           console.log(result.text);
           setSubmitted("Thank you, We'll get back to you");
+          updateStyle('');
           updateError(false);
           updatetmessge('');
           setTimeout(() => {
@@ -135,6 +136,7 @@ export default function Contact() {
           {tmessage.length > 1 && <p className="t_error">{tmessage}</p>}
           <div className="checkbox--container">
             <input
+              required
               checked={formData.agreed}
               className={`contact--form__checkbox ${styles}`}
               type="checkbox"
