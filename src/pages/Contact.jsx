@@ -68,6 +68,8 @@ export default function Contact() {
       updatetmessge("Please enter a message");
     } else {
       sendEmail(event);
+      updateError(false)
+      updatetmessge('')
     }
   }
   return (
