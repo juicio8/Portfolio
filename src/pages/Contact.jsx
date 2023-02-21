@@ -44,6 +44,11 @@ export default function Contact() {
         (result) => {
           console.log(result.text);
           setSubmitted("Thank you, We'll get back to you");
+          updateError(false);
+          updatetmessge('');
+          setTimeout(() => {
+            setSubmitted('');
+          }, 3000);
           setFormData({
             firstName: "",
             lastName: "",
@@ -68,8 +73,7 @@ export default function Contact() {
       updatetmessge("Please enter a message");
     } else {
       sendEmail(event);
-      updateError(false)
-      updatetmessge('')
+    
     }
   }
   return (
