@@ -81,7 +81,7 @@ export default function Contact() {
       <div className="contact--page">
         <h1 className="contact--header">Contact Me</h1>
         <p className="contact--leading">
-          Hi there, contact me to ask me about anything you have in mind
+          Hi there, contact me to ask me about anything you have in mind.
         </p>
         <form className="contact--form" onSubmit={handleSubmit} ref={form}>
           <div className="name--flex">
