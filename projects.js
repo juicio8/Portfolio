@@ -1,5 +1,19 @@
 export const projects = [
   {
+    name: "Ankaraworldcatalog",
+    link: "https://ankaraworldcatalog.netlify.app",
+    git: "https://github.com/ankaraworld_catalog/",
+    image: "/hspage.jpg",
+    tech: [
+      "/sb.svg",
+      "/jest-js-icon.svg",
+      "/typescript-programming-language-icon.svg",
+      "/styled-components-1.svg",
+      "/nextjs-icon.svg",
+    ],
+    description: "Generate, edit and send love letters to your loved ones",
+  },
+  {
     name: "LoveMe App",
     link: "https://love-me.app",
     git: "https://github.com/workshopapps/loveletterwriter.web",
@@ -9,6 +23,7 @@ export const projects = [
       "/javascript-programming-language-icon.svg",
       "/tailwind-css-icon.svg",
       "/react-js-icon.svg",
+      "/redux-icon.svg",
     ],
     description: "Generate, edit and send love letters to your loved ones",
   },
@@ -32,13 +47,13 @@ export const projects = [
     description: "Select your favorite films and add it to your WatchList",
     tech: ["/css-icon.svg", "/javascript-programming-language-icon.svg"],
   },
-  {
-    name: "Lendsqr Test",
-    link: "https://deni-wisdom-ochiche-lendsqr-fe-test.netlify.app",
-    git: "https://github.com/juicio8/lendsqr-fe-test",
-    image: "/project4.jpg",
-    description: "",
-  },
+  // {
+  //   name: "Lendsqr Test",
+  //   link: "https://deni-wisdom-ochiche-lendsqr-fe-test.netlify.app",
+  //   git: "https://github.com/juicio8/lendsqr-fe-test",
+  //   image: "/project4.jpg",
+  //   description: "",
+  // },
   {
     name: "Metabnb",
     link: "https://lambent-khapse-f0075f.netlify.app",

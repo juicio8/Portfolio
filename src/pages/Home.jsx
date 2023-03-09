@@ -50,6 +50,19 @@ function Home() {
               alt="bootstrap"
             />
           </a>
+          <a href="https://jquery.com/" target="_blank">
+            <img src="/jquery-icon.svg" title="jquery" alt="jquery" />
+          </a>
+          <a href="https://www.php.net/" target="_blank">
+            <img
+              src="/php-programming-language-icon.svg"
+              title="php"
+              alt="php"
+            />
+          </a>
+          <a href="https://www.mysql.com/" target="_blank">
+            <img src="/mysql-icon.svg" title="mysql" alt="mysql" />
+          </a>
           <a href="https://reactjs.org/" target="_blank">
             <img src="/react-js-icon.svg" title="react" alt="react" />
           </a>
